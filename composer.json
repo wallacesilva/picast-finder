@@ -1,0 +1,12 @@
+{
+    "require": {
+        "google/apiclient": "^2.0.0@RC"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php -r \"if(!file_exists('config.php')) copy('config.example.php', 'config.php');\"",
+            "php -r \"mkdir('storage/cache/ytc_cache', 0777, TRUE);\"",
+            "php -r \"mkdir('storage/logs', 0777, TRUE);\""
+        ]
+    }
+}
