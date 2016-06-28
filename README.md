@@ -1,5 +1,9 @@
-# picast-finder
+# Picast Finder
 Simple youtube search to PICAST (https://github.com/lanceseidman/PiCAST)
+
+# Preview (Responsive)
+
+![Preview Picast Finder - Youtube](https://raw.githubusercontent.com/wallacesilva/picast-finder/master/preview.jpg)
 
 # Install
 
